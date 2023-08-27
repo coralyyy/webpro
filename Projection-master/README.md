@@ -12,8 +12,8 @@ Movie Picker is an application based on Node.js integrated with MongoDB, as well
 
 ### High Level Functionality
 
-The is a user admin that is precreted and he can add movies, users (also remove) and orders movies for his user.
-After an admin create a normal user or and admin the user can log in to his own user and order movies from the movies list,
+The is a user admin that is precreted and he can add and remove movies, users and orders movies for his user.
+After an admin create a regular user or and admin the user can log in to his own user and order movies from the movies list,
 later on he can see what movies and when he ordered them.
 
 ### Backend Functionality 
@@ -23,7 +23,7 @@ later on he can see what movies and when he ordered them.
 The server runs on express which is a backend web application framework for Node.js. 
 Along with that the login-in functionality is based on 'passport' locay strategy (Username and password authentication)
 which allows us to serialize the raw user's data that comes 
-fron the log-in action and deserialize it to actual JSON data that we using across the application.
+from the log-in action and deserialize it to actual JSON data that we using across the application.
 
 every page has a GET method implemented by express which allows use to always check whether the user is logged in and
 therefore redirect him the the relevent pages (logged user can go back to the login page by using /login)
