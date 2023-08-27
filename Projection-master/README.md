@@ -167,10 +167,6 @@ const orderMovie = function (movieName)  { ... }                                
 
 ![image](https://user-images.githubusercontent.com/72068418/176543768-49fcd510-4d11-4cb8-9c22-2f0b431a0dc8.png)
 
-##### Add a user page:
-
-![image](https://user-images.githubusercontent.com/72068418/176543875-1d5d1333-8db1-4064-a382-79957f309602.png)
-
 ##### List of movies page:
 
 ![image](https://user-images.githubusercontent.com/72068418/176543971-5d078b0b-c2e8-4a7a-9b69-ae5eb5b24ec6.png)
